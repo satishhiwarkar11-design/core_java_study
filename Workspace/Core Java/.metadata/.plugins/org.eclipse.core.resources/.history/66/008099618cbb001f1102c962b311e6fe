@@ -1,0 +1,17 @@
+package com.cjc;
+
+public class parameterized {
+int rollno;
+String name;
+	
+	public parameterized(int rollno,String name)
+	{
+	this.rollno=rollno;
+	this.name=name;
+	}
+	public void display()
+	{
+		
+		System.out.println("rollno:="+rollno+"\n"+"Name:="+name+"");
+	}
+}

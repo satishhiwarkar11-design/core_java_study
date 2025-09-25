@@ -1,0 +1,21 @@
+package com.cjc;
+
+public class Test {
+int a=10;
+static int b=300;
+
+
+
+
+
+public static void main(String[] args) {
+	int c=30;
+	
+	System.out.println(c);
+	
+	System.out.println(b);
+	
+	Test t=new Test();
+	System.out.println(t.a);
+}
+}

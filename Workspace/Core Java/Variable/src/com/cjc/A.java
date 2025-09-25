@@ -1,0 +1,23 @@
+package com.cjc;
+
+public class A {
+int a=10;
+static int b=20;
+
+public static void main(String[] args) {
+	A a=new A();
+	System.out.println(a.a);
+	System.out.println(a.b);
+	
+	a.a=1000;
+	a.b=2000;
+	
+	System.out.println(a.a);
+	System.out.println(a.b);
+	
+	
+	A aa=new A();
+	System.out.println(aa.a);
+	System.out.println(aa.b);
+}
+}

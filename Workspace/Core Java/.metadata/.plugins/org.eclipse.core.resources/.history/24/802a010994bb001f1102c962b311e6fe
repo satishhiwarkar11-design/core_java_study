@@ -1,0 +1,19 @@
+package com.cjc;
+
+import java.util.Scanner;
+
+public class Switch {
+public static void main(String[] args) {
+	int a=10,b=20,ch;
+	
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter number");
+	ch=sc.nextInt();
+	
+	switch(ch)
+	{
+	case 1: System.out.println("add:="+(a+b));
+	break;
+	}
+}
+}

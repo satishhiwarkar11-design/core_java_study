@@ -1,0 +1,13 @@
+package com.cjc;
+
+public class foreach {
+public static void main(String[] args) {
+	int a[]=new int[] {10,20,22,22,33,3};
+	System.out.println(a[2]);
+	
+	for(int b:a)
+	{
+		System.out.println(b);
+	}
+}
+}

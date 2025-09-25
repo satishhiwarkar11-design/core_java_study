@@ -1,0 +1,16 @@
+package com.cjc;
+
+public class Test {
+	
+	
+	
+public static void main(String[] args) 
+{
+	Test t=new Test();
+	t.m1();
+}
+static void sum()
+{
+	System.out.println("hello");
+}
+}
