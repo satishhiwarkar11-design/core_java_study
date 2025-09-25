@@ -6,8 +6,9 @@ public class A
 {
 	public void m1()
 	{
-		System.out.println("parent class");
+		System.out.println("pargdfgdfgdfgdgdrent class");
 	}
+	
 	public void m1(int a)
 	{
 		System.out.println("int method");
