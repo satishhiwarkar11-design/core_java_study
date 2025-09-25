@@ -3,7 +3,7 @@ class Calculator
 {
 public static void main(String args[])
 {
-System.out.println("satish hiwarkar");
+System.out.println("vijaya hiwarkar");
 
 }
 }
